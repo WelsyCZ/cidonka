@@ -1,0 +1,73 @@
+table {
+    border: 5px solid #000;
+    border-collapse: collapse;
+    background-color: #555;
+}
+
+
+#counter {
+    position: relative;
+}
+
+#counter img {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+}
+
+#headline {
+    color:#FFAE56;
+    position: absolute;
+    top: 25px;
+    left: 300px;
+    font-size: xxx-large;
+    font-weight: bolder;
+}
+
+#logo {
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+#schedule {
+    position: absolute;
+    top: 100px;
+}
+
+body {
+    background-color: #555;
+    height: 100%;
+    margin:0;
+}
+
+footer {
+    position: absolute;
+    bottom: 0px;
+    text-align: center;
+    width: 100%;
+    color: #FFAE56;
+}
+
+
+td, th {
+    border: 1px solid #333;
+    min-width: 50px;
+    min-height: 25px;
+    padding: 5px;
+    vertical-align: middle;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+
+}
+
+td img{
+    display: block;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
